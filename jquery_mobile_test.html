@@ -1,0 +1,158 @@
+	<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<!--  Social Media open graph protocol -->
+<meta property="og:title" content="UW Htlm5 200 :: Javascript" />
+<meta property="og:description" content="[[*description]]" />
+<meta property="og:url" content="[[++site_url]][[~[[*id]]]]" />
+<meta property="og:image" content="[[*social_image]]" />
+
+<!--   Twitter -->
+<meta name="twitter:site" content="[[++site_url]][[~[[*id]]]]" />
+<meta name="twitter:title" content="[[++site_name]] :: [[*pagetitle]]" />
+<meta name="twitter:description" content="[[*description]]" />
+<meta name="twitter:image" content="[[*social_image]]" />
+
+<!-- NO CRAWING FROM SEARCH ENGINE ROBOTS FOR NOW!!! -->
+<meta name="robots" content="noindex,nofollow" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="[[*description]]" />
+<meta name="keywords" content="Artists in history, artist years " />
+
+<link rel="icon" href="favicon.png" type="image/png" /> 
+
+<!-- 
+GO TO 
+http://demos.jquerymobile.com/1.4.5/transitions/ 
+for examples 
+-->
+
+<!-- MOBILE STYLES -->
+<!-- because we have a reponsive website, that means the users wont have to pinch and zoom, <br>
+so lets disable this feature so our CSS takes care of it -->
+<meta name="viewport" content="width=device-width, maximum-scale-1.0, minimum-scale=1.0, initial-scale=1.0" />
+
+
+<!--    UNCOMMENT THIS SO WE CAN LINK TO THE JQUERY MOBILE FRAMEWORK -->
+<link rel="stylesheet" href="assets/themes/my-custom-theme.min.css" />
+<link rel="stylesheet" href="assets/themes/jquery.mobile.icons.min.css" />
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+
+<script type="text/Javascript">
+
+	var mobile = (
+		/iphone|ipad|ipod|android|blackberry|mini|windows\sce|palm/
+		i.test(naviator.userAgent.toLowerCase()));
+	if(mobile){
+		document.location = "artists_in_history.html";
+	}
+
+
+
+
+</script>
+
+
+
+
+
+<title>Artists in History :: Mobile Site</title>
+<!-- <link rel="stylesheet" href="assets/css/mobile-styles.css" /> -->
+<style>
+
+
+</style>
+</head>
+<body>
+	<div id="page1" class="page page1" data-role="page"><!-- Page 1 div -content -->
+		<div><!-- Page 1 header -->
+			<h1>Page 1 header</h1>
+		</div><!-- Page 1 header closing -->
+		<div><!-- Page 1 content -->
+
+			<h1>Page 1 content</h1><!-- Page 1 content header -->
+			<p>Page 1 content Page 1 content Page 1 content Page 1 content Page 1 content</p><!-- Page 1 content copy -->
+
+			<!-- Site Nav -->
+			<ul data-role="listview">
+				<!--<li><a href="#" target="">Home</a></li>-->
+				<li><a href="#page2" data-transition="slidefade">Page 2</a></li>
+				<li><a href="#page3" data-transition="slidefade">Page 3</a></li>
+				<li><a href="#page4" data-transition="slidefade">Page 4</a></li>
+			</ul><!-- Site nav closing -->
+		</div><!-- Page 1 content  closing-->
+		<div><!-- Page 1 footer -->
+			<p> &copy; 2016 all rights reserved</p>
+		</div><!-- Page 1 footer closing -->
+	</div><!-- Page 1 div closing page -->
+
+	<div id="page2" class="page page2" data-role="page"><!-- Page 2 div -content -->
+		<div><!-- Page 2header -->
+			<h1>Page 2 header</h1>
+		</div><!-- Page 2 header closing -->
+		<div><!-- Page 2 content -->
+			<h1>Page 2 content</h1><!-- Page 1 content header -->
+			<p>Page 2 content Page 2 content Page 2 content Page 2 content Page 2 content</p><!-- Page 2 content copy -->
+						<!-- Site Nav -->
+			<ul  data-role="listview">
+				<!--<li><a href="#" target="">Home</a></li>-->
+				<li><a href="#page1" data-transition="slidefade">Page 1</a></li>
+				<li><a href="#page3"  data-transition="slidefade">Page 3</a></li>
+				<li><a href="#page4"  data-transition="slidefade">Page 4</a></li>
+			</ul><!-- Site nav closing -->
+		</div><!-- Page 2 content  closing-->
+		<div><!-- Page 2 footer -->
+			<p> &copy; 2016 all rights reserved</p>
+			<p><a href="#page1">Home</a></p>
+		</div><!-- Page 2 footer closing -->
+	</div><!-- Page 2 div closing page -->
+	<div id="page3" class="page page3" data-role="page"><!-- Page 3 div -->
+		<div><!-- Page 3 header -->
+			<h1>Page 3 header</h1>
+		</div><!-- Page 3 header closing -->
+		<div><!-- Page 3 content -->
+			<h1>Page 3 content</h1><!-- Page 1 content header -->
+			<p>Page 3 content Page 3 content Page 3 content Page 3 content Page 3 content</p><!-- Page 3 content copy -->
+						<!-- Site Nav -->
+			<ul  data-role="listview">
+				<!--<li><a href="#" target="">Home</a></li>-->
+				<li><a href="#page1"  data-transition="slidefade">Page 1</a></li>
+				<li><a href="#page2"  data-transition="slidefade">Page 2</a></li>
+				<li><a href="#page4"  data-transition="slidefade">Page 4</a></li>
+			</ul><!-- Site nav closing -->
+		</div><!-- Page 3 content  closing-->
+		<div><!-- Page 3 footer -->
+			<p> &copy; 2016 all rights reserved</p>
+			<p><a href="#page1">Home</a></p>
+		</div><!-- Page 3 footer closing -->
+	</div><!-- Page 3 div closing page -->
+	<div id="page4" class="page page4" data-role="page"><!-- Page 4 div -->
+		<div><!-- Page 4 header -->
+			<h1>Page 4 header</h1>
+		</div><!-- Page 4 header closing -->
+		<div><!-- Page 4 content -->
+			<h1>Page 4 content</h1><!-- Page 1 content header -->
+			<p>Page 4 content Page 4 content Page 4 content Page 4 content Page 4 content</p><!-- Page 4 content copy -->
+						<!-- Site Nav -->
+			<ul  data-role="listview">
+				<!--<li><a href="#" target="">Home</a></li>-->
+				<li><a href="#page1" data-transition="slidefade">Page 1</a></li>
+				<li><a href="#page2" data-transition="slidefade">Page 2</a></li>
+				<li><a href="#page3" data-transition="slidefade">Page 3</a></li>
+			</ul><!-- Site nav closing -->
+		</div><!-- Page 4 content  closing-->
+		<div><!-- Page 4 footer -->
+			<p> &copy; 2016 all rights reserved</p>
+			<p><a href="#page1">Home</a></p>
+		</div><!-- Page 4 footer closing -->
+	</div><!-- Page 4 div closing page -->
+
+
+
+</body>
+</html>
